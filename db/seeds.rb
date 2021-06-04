@@ -6,10 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Show.destroy_all
-Episode.destroy_all
-Character.destroy_all
-Quote.destroy_all
+# Show.destroy_all
+# Episode.destroy_all
+# Character.destroy_all
+# Quote.destroy_all
 
 # Characters
 larry_david = Character.create(
@@ -692,35 +692,35 @@ show_s10e01 = Show.create([
     },
     {
         character_id: cheryl_david.id,
-        episode_id: 1
+        episode_id: season10[0].id
     },
     {
         character_id: susie_greene.id,
-        episode_id: 1
+        episode_id: season10[0].id
     },
     {
         character_id: leon.id,
-        episode_id: 1
+        episode_id: season10[0].id
     },
     {
         character_id: ted_danson.id,
-        episode_id: 1
+        episode_id: season10[0].id
     },
     {
         character_id: richard_lewis.id,
-        episode_id: 1
+        episode_id: season10[0].id
     },
     {
         character_id: mocha_joe.id,
-        episode_id: 1
+        episode_id: season10[0].id
     },
     {
         character_id: alice.id,
-        episode_id: 1
+        episode_id: season10[0].id
     },
     {
         character_id: randi.id,
-        episode_id: 1
+        episode_id: season10[0].id
     },
     {
         character_id: monena.id,
