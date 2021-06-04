@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_03_155417) do
+ActiveRecord::Schema.define(version: 2021_06_04_121813) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
     t.string "actor"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "image"
   end
 
   create_table "episodes", force: :cascade do |t|
