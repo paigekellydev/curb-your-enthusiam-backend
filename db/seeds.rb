@@ -121,7 +121,7 @@ quotes = Quote.create([
     },
     {
         character_id: ted_danson.id,
-        quote: "Tak your filthy friend and your freak book and get out of here!"
+        quote: "Take your filthy friend and your freak book and get out of here!"
     },
     {
         character_id: ted_danson.id,
@@ -692,47 +692,35 @@ show_s10e01 = Show.create([
     },
     {
         character_id: cheryl_david.id,
-        episode_id: season10[0].id
+        episode_id: 1
     },
     {
         character_id: susie_greene.id,
-        episode_id: season10[0].id
+        episode_id: 1
     },
     {
         character_id: leon.id,
-        episode_id: season10[0].id
+        episode_id: 1
     },
     {
         character_id: ted_danson.id,
-        episode_id: season10[0].id
+        episode_id: 1
     },
     {
         character_id: richard_lewis.id,
-        episode_id: season10[0].id
+        episode_id: 1
     },
     {
         character_id: mocha_joe.id,
-        episode_id: season10[0].id
+        episode_id: 1
     },
     {
         character_id: alice.id,
-        episode_id: season10[0].id
-    },
-    {
-        character_id: valerie.id,
-        episode_id: season10[0].id
+        episode_id: 1
     },
     {
         character_id: randi.id,
-        episode_id: season10[0].id
-    },
-    {
-        character_id: phil_rosenthal.id,
-        episode_id: season10[0].id
-    },
-    {
-        character_id: phil_rosenthal.id,
-        episode_id: season10[0].id
+        episode_id: 1
     },
     {
         character_id: monena.id,
